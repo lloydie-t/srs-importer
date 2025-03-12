@@ -8,11 +8,12 @@ The records can be automatically imported using Moodle cron or manually imported
 
 ## Installing via uploaded ZIP file
 
-1. Log in to your Moodle site as an admin and go to _Site administration >
+1. Download a zip copy of the plugin from https://github.com/lloydie-t/srs-importer/archive/refs/heads/main.zip
+2. Log in to your Moodle site as an admin and go to _Site administration >
    Plugins > Install plugins_.
-2. Upload the ZIP file with the plugin code. You should only be prompted to add
+3. Upload the ZIP file with the plugin code. You should only be prompted to add
    extra details if your plugin type is not automatically detected.
-3. Check the plugin validation report and finish the installation.
+4. Check the plugin validation report and finish the installation.
 
 ## Installing manually
 
