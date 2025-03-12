@@ -106,10 +106,10 @@ class ImportManager
                 $studentExists = $DB->get_record('tool_srs_import_students', ['srs_id' => $student['srs_id']]);
 
                 if ($studentExists) {
-                    //$this->upsertStudent($student, 'update');
+                    $this->upsertStudent($student, 'update');
                     $this->importMoodleUser($student);
                 } else {
-                    //$this->upsertStudent($student);
+                    $this->upsertStudent($student);
                     $this->importMoodleUser($student);
                 }
 
